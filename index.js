@@ -2,3 +2,4 @@
 const twoFirst = function returnFirstTwoDrivers(drivers) {
   return drivers.slice(0, 2);
 }
+twoFirst()
