@@ -14,3 +14,11 @@ const createFareMultiplier = function (fare) {
     return fare * value;
   };
 };
+
+const fareDoubler = createFareMultiplier(2);
+
+const fareTripler = createFareMultiplier(3);
+
+const selectDifferentDrivers = function (drivers, chooseDrivers) {
+  return chooseDrivers(drivers);
+};
